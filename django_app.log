@@ -1,0 +1,318 @@
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/transactions/history/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 66, in get_local_created_at
+    user_timezone = timezone(self.context['request'].user.timezone)
+                    ^^^^^^^^
+NameError: name 'timezone' is not defined
+"GET /api/accounts/transactions/history/ HTTP/1.1" 500 138322
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/transactions/history/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 69, in get_local_created_at
+    user_timezone = timezone(self.context['request'].user.timezone)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'timezone'
+"GET /api/accounts/transactions/history/ HTTP/1.1" 500 138600
+/home/ubuntu/banking_system/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 11940
+/home/ubuntu/banking_system/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 11940
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 11940
+Internal Server Error: /api/accounts/users/update-timezone/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/views.py", line 102, in post
+    if timezone not in all_timezones:
+                       ^^^^^^^^^^^^^
+NameError: name 'all_timezones' is not defined
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 500 89750
+/home/ubuntu/banking_system/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/accounts/users/update-timezone/
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 400 29
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+/home/ubuntu/banking_system/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/accounts/users/update-timezone/
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 401 183
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 12215
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 12215
+"GET /api/accounts/accounts/ HTTP/1.1" 200 216
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/accounts/ HTTP/1.1" 200 238
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/accounts/ HTTP/1.1" 200 264
+Bad Request: /api/accounts/accounts/
+"POST /api/accounts/accounts/ HTTP/1.1" 400 38
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 12215
+/home/ubuntu/banking_system/accounts/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 12215
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 401 183
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/transactions/history/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/options.py", line 676, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'local_created_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 747, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 256, in get_select
+    select_mask = self.query.get_select_mask()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 871, in get_select_mask
+    return self._get_only_select_mask(opts, mask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 840, in _get_only_select_mask
+    field = opts.get_field(field_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/options.py", line 678, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Transaction has no field named 'local_created_at'
+"GET /api/accounts/transactions/history/ HTTP/1.1" 500 185105
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 401 183
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
