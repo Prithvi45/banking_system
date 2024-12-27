@@ -2,7 +2,7 @@ from django.test import TestCase
 
 # Create your tests here.
 
-from accounts.models import CustomUser, BankAccount
+from accounts.models import CustomUser, BankAccount, Transaction
 from unittest.mock import patch
 from decimal import Decimal
 from accounts.utils import convert_currency
@@ -132,3 +132,41 @@ class TransactionIntegrationTest(TestCase):
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
         print("Test Case 9 Passed")
 
+
+
+class AdminReportTest(TestCase):
+    def setUp(self):
+        self.client = APIClient()
+        self.admin_user = CustomUser.objects.create_superuser(username="admin", password="admin123")
+        self.user = CustomUser.objects.create_user(username="testuser", password="password123")
+        self.client.login(username="admin", password="admin123")
+        self.account = BankAccount.objects.create(user=self.user, balance=100.00)
+        refresh = RefreshToken.for_user(self.admin_user)
+        self.token = str(refresh.access_token)
+        self.client.credentials(HTTP_AUTHORIZATION=f'Bearer {self.token}')
+        Transaction.objects.create(account=self.account, transaction_type="deposit", amount=100.00)
+
+    def test_admin_report_access(self):
+        url = reverse('admin-reports')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertIn('total_users', response.data)
+        self.assertIn('total_accounts', response.data)
+        self.assertIn('transaction_breakdown', response.data)
+        print("Test case 10 passed")
+
+    def test_non_admin_access(self):
+        url = reverse('admin-reports')
+
+        self.client.credentials()  # Remove the Authorization header
+
+        refresh = RefreshToken.for_user(self.user)
+        token = str(refresh.access_token)
+
+        self.client.credentials(HTTP_AUTHORIZATION=f'Bearer {token}')
+
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        print("Test case 11 passed")
+
+ 
