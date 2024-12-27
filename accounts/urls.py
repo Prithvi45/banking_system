@@ -1,8 +1,9 @@
 from django.urls import path
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from .views import RegisterView, LoginView, LoginViewWithKeys,VerifyOTPView, BankAccountView, BatchAccountCreationView, UpdateTimezoneView
+from .view.user_account_management import RegisterView, LoginView, LoginViewWithKeys,VerifyOTPView, UpdateTimezoneView
+from .view.bank_account_management import BankAccountView, BatchAccountCreationView
 from .view.transaction import DepositView, WithdrawView, TransferView, TransactionHistoryView, ExternalTransferView, TransactionHistoryCachedView
-from .view.user_management import RoleView, UserRoleView, PermissionView
+from .view.user_role_management import RoleView, UserRoleView, PermissionView
 from .view.reports import AdminReportView
 
 urlpatterns = [

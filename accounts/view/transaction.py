@@ -171,26 +171,34 @@ class ExternalTransferView(APIView):
 
 
 
+
 class TransactionHistoryCachedView(ListAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = TransactionSerializer
 
     def get_queryset(self):
-        print("i am here")
         account_id = self.request.query_params.get('account')
+        if not account_id:
+            return Transaction.objects.none()  # No account specified, return empty queryset
+
         cache_key = f'transactions_{account_id}'
 
-        transactions = cache.get(cache_key)
-        if not transactions:
-            print("here")
-            logger.info(f"Cache miss for {cache_key}")
+        # Check cache for transaction IDs
+        transaction_ids = cache.get(cache_key)
+        if not transaction_ids:
+            # Cache miss: Fetch data from the database
             transactions = Transaction.objects.filter(account_id=account_id).select_related('account')
-            transactions_data = TransactionSerializer(transactions, many=True).data
-            print(TransactionSerializer(transactions, many=True).data)
-            cache.set(cache_key, transactions_data, timeout=300)  # Cache for 5 minutes
-            logger.info(f"Stored in cache: {transactions_data}")
+            transaction_ids = list(transactions.values_list('id', flat=True))  # Store IDs in the cache
+            cache.set(cache_key, transaction_ids, timeout=300)
         else:
             logger.info(f"Cache hit for {cache_key}")
 
-        return transactions
+        # Return QuerySet using IDs
+        return Transaction.objects.filter(id__in=transaction_ids)
 
+
+
+#Test Redis connection
+#from django.core.cache import cache
+#cache.set('test_key', 'test_value', timeout=30)
+#print(cache.get('test_key'))  # Should print 'test_value'

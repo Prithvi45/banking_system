@@ -614,3 +614,201 @@ Unauthorized: /api/accounts/admin/reports/
 Not Found: /api/accounts/transactions/transfer/
 Forbidden: /api/accounts/admin/reports/
 Not Found: /api/accounts/transactions/transfer/
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/accounts/admin/reports/
+"GET /api/accounts/admin/reports/ HTTP/1.1" 401 5148
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 16308
+Bad Request: /api/accounts/loginwithkeys/
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 400 79
+Unauthorized: /api/accounts/admin/reports/
+"GET /api/accounts/admin/reports/ HTTP/1.1" 401 58
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/roles/assign/
+"POST /api/accounts/roles/assign/ HTTP/1.1" 401 58
+Unauthorized: /api/accounts/admin/reports/
+"GET /api/accounts/admin/reports/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/roles/
+"POST /api/accounts/roles/ HTTP/1.1" 401 183
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/accounts/users/update-timezone/
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 401 183
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/bank_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/accounts/users/update-timezone/
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Watching for file changes with StatReloader
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/banking_system/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 2322
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 200 10376
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 1890
+"GET /api/accounts/transactions/history/?account=1 HTTP/1.1" 200 2332
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 200 10376
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 200 10376
+"GET /api/accounts/transactions/history/?account=1 HTTP/1.1" 200 2332
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 200 10376
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/transactions/history/cached/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'account'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/relations.py", line 189, in get_attribute
+    return super().get_attribute(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `account` on serializer `TransactionSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `int` instance.
+Original exception text was: 'int' object has no attribute 'account'.
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 500 138417
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/?account=1 HTTP/1.1" 200 10376
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=3 HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 1890
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 1890
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 401 107
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 401 183
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 401 183
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 401 107
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 1840
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 1890
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 200 33
+"POST /api/accounts/transactions/withdraw/ HTTP/1.1" 200 35
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 200 32
+"GET /api/accounts/accounts/ HTTP/1.1" 200 383
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+Forbidden: /api/accounts/accounts/batch-create/
+"POST /api/accounts/accounts/batch-create/ HTTP/1.1" 403 63
+"POST /api/accounts/transactions/external-transfer/ HTTP/1.1" 200 33
+Unauthorized: /api/accounts/roles/
+"POST /api/accounts/roles/ HTTP/1.1" 401 183
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+"POST /api/accounts/accounts/batch-create/ HTTP/1.1" 201 23
+"POST /api/accounts/accounts/batch-create/ HTTP/1.1" 201 23
+"POST /api/accounts/roles/ HTTP/1.1" 201 32
+"GET /api/accounts/roles/ HTTP/1.1" 200 121
+"POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
+"GET /api/accounts/admin/reports/ HTTP/1.1" 200 397

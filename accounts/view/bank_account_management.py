@@ -6,10 +6,10 @@ from rest_framework.response import Response
 from rest_framework import status, permissions
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import authenticate
-from .serializers import RegisterSerializer, LoginSerializer, BankAccountSerializer, BatchAccountCreationSerializer
+from accounts.serializers import RegisterSerializer, LoginSerializer, BankAccountSerializer, BatchAccountCreationSerializer
 from rest_framework.permissions import AllowAny
-from .utils import send_otp_via_email
-from .models import CustomUser, BankAccount
+from accounts.utils import send_otp_via_email
+from accounts.models import CustomUser, BankAccount
 from django.utils.timezone import now
 from datetime import timedelta
 from django.contrib.auth import get_user_model
