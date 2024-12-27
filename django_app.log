@@ -812,3 +812,1443 @@ Unauthorized: /api/accounts/roles/
 "GET /api/accounts/roles/ HTTP/1.1" 200 121
 "POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
 "GET /api/accounts/admin/reports/ HTTP/1.1" 200 397
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 16308
+Unauthorized: /api/accounts/accounts/
+"POST /api/accounts/accounts/ HTTP/1.1" 401 58
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+Unauthorized: /api/accounts/transactions/history/
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 401 183
+Unauthorized: /api/accounts/transactions/history/
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 401 183
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 2352
+"GET /api/accounts/transactions/history/cached/?account=2 HTTP/1.1" 200 2301
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+"POST /api/accounts/login/ HTTP/1.1" 200 36
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+"POST /api/accounts/register/ HTTP/1.1" 201 42
+"GET /api/accounts/accounts/ HTTP/1.1" 200 502
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+"POST /api/accounts/loginwithkeys/ HTTP/1.1" 200 483
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"GET /api/accounts/accounts/ HTTP/1.1" 200 621
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 200 32
+Not Found: /api/accounts/transactions/withdraw/
+"POST /api/accounts/transactions/withdraw/ HTTP/1.1" 404 45
+"POST /api/accounts/transactions/withdraw/ HTTP/1.1" 200 35
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 200 33
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 52
+"GET /api/accounts/transactions/history/?account=2 HTTP/1.1" 200 52
+"GET /api/accounts/transactions/history/?account=6 HTTP/1.1" 200 703
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 703
+"GET /api/accounts/transactions/history/cached/?account=3 HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/?account=6 HTTP/1.1" 200 653
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 16308
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 107
+"GET /api/accounts/accounts/ HTTP/1.1" 200 121
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+Unauthorized: /api/accounts/login/
+"POST /api/accounts/login/ HTTP/1.1" 401 31
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 16314
+Not Found: /
+"GET / HTTP/1.1" 404 2324
+Not Found: /
+"GET / HTTP/1.1" 404 2324
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2375
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 63987
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 18599
+"POST /api/accounts/register/ HTTP/1.1" 201 42
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 20150
+Unauthorized: /api/accounts/login/
+"POST /api/accounts/login/ HTTP/1.1" 401 31
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 21229
+"POST /api/accounts/login/ HTTP/1.1" 200 36
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+/home/ubuntu/banking_system/accounts/view/bank_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 25726
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+"GET /api/accounts/accounts/ HTTP/1.1" 200 240
+"GET /api/accounts/accounts/ HTTP/1.1" 200 2
+"POST /api/accounts/accounts/ HTTP/1.1" 201 118
+"GET /api/accounts/accounts/ HTTP/1.1" 200 120
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 26933
+Unauthorized: /api/accounts/accounts/
+"POST /api/accounts/accounts/ HTTP/1.1" 401 58
+"GET /api/accounts/accounts/ HTTP/1.1" 200 192
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 37, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'user' was declared on serializer BankAccountSerializer, but has not been included in the 'fields' option.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 20366
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/accounts/ HTTP/1.1" 200 192
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 57, in create
+    user, created = User.objects.get_or_create(**user_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.query.QuerySet.get_or_create() argument after ** must be a mapping, not CustomUser
+"POST /api/accounts/accounts/ HTTP/1.1" 500 102105
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 57, in create
+    user, created = User.objects.get_or_create(**user_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.query.QuerySet.get_or_create() argument after ** must be a mapping, not CustomUser
+"POST /api/accounts/accounts/ HTTP/1.1" 500 100568
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 57, in create
+    user, created = User.objects.get_or_create(**user_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.query.QuerySet.get_or_create() argument after ** must be a mapping, not CustomUser
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19066
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 56, in create
+    bank_account = BankAccount.objects.create(user=self.request.user, **validated_data)
+                                                   ^^^^^^^^^^^^
+AttributeError: 'BankAccountSerializer' object has no attribute 'request'
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19024
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 57, in create
+    bank_account = BankAccount.objects.create(user=request.user, **validated_data)
+                                                   ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'user'
+"POST /api/accounts/accounts/ HTTP/1.1" 500 18987
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 58, in create
+    bank_account = BankAccount.objects.create(user=request.user, **validated_data)
+                                                   ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'user'
+"POST /api/accounts/accounts/ HTTP/1.1" 500 18987
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+code 400, message Bad request version ('À#À¬À®À+À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+"GET / HTTP/1.1" 404 2324
+/home/ubuntu/banking_system/accounts/view/bank_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 975, in create
+    raise_errors_on_nested_writes('create', self, validated_data)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 840, in raise_errors_on_nested_writes
+    assert not any(
+           ^^^^^^^^
+AssertionError: The `.create()` method does not support writable nested fields by default.
+Write an explicit `.create()` method for serializer `accounts.serializers.BankAccountSerializer`, or set `read_only=True` on nested serializer fields.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19528
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 59, in create
+    bank_account = BankAccount.objects.create(user=user, **validated_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: django.db.models.query.QuerySet.create() got multiple values for keyword argument 'user'
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19074
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/accounts/ HTTP/1.1" 201 130
+code 400, message Bad request version ('À#À¬À®À+À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2375
+"GET /api/accounts/accounts/ HTTP/1.1" 200 251
+"POST /api/accounts/accounts/ HTTP/1.1" 201 119
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 64, in create
+    tenant = Tenant.objects.create(**tenant_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+"POST /api/accounts/accounts/ HTTP/1.1" 500 191594
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 64, in create
+    tenant = Tenant.objects.create(**tenant_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+"POST /api/accounts/accounts/ HTTP/1.1" 500 191594
+"POST /api/accounts/accounts/ HTTP/1.1" 201 121
+"GET /api/accounts/accounts/ HTTP/1.1" 200 737
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 64, in create
+    tenant = Tenant.objects.create(**tenant_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: accounts_tenant.domain
+"POST /api/accounts/accounts/ HTTP/1.1" 500 22524
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 64, in create
+    tenant = Tenant.objects.get_or_create(**tenant_data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/query.py", line 652, in get
+    raise self.model.MultipleObjectsReturned(
+accounts.models.Tenant.MultipleObjectsReturned: get() returned more than one Tenant -- it returned 2!
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19563
+"GET /api/accounts/accounts/ HTTP/1.1" 200 983
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 65, in create
+    bank_account.tenant = tenant
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Tenant: Tenant Name - MNK>, False)": "BankAccount.tenant" must be a "Tenant" instance.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19166
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 65, in create
+    bank_account.tenant = tenant
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Tenant: Tenant Name - MNK>, False)": "BankAccount.tenant" must be a "Tenant" instance.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19166
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 66, in create
+    bank_account.tenant = tenant
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Tenant: Tenant Name - MNK>, False)": "BankAccount.tenant" must be a "Tenant" instance.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19166
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/accounts/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/bank_account_management.py", line 38, in post
+    serializer.save(user=request.user)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/serializers.py", line 68, in create
+    bank_account.tenant = tenant
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "(<Tenant: Tenant Name - MNK>, False)": "BankAccount.tenant" must be a "Tenant" instance.
+"POST /api/accounts/accounts/ HTTP/1.1" 500 19166
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/accounts/ HTTP/1.1" 201 131
+"POST /api/accounts/accounts/ HTTP/1.1" 201 131
+"GET /api/accounts/accounts/ HTTP/1.1" 200 1735
+"POST /api/accounts/accounts/ HTTP/1.1" 201 131
+"GET /api/accounts/accounts/ HTTP/1.1" 200 1867
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 52
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+"GET /api/accounts/accounts/ HTTP/1.1" 200 1867
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 404 45
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 200 32
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 27402
+Unauthorized: /api/accounts/transactions/deposit/
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 401 58
+"POST /api/accounts/transactions/deposit/ HTTP/1.1" 200 32
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 28529
+"POST /api/accounts/transactions/withdraw/ HTTP/1.1" 200 35
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 696
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+"GET /api/accounts/transactions/history/cached/?account=6 HTTP/1.1" 200 653
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 28529
+"GET /api/accounts/transactions/history/cached/?account=6 HTTP/1.1" 200 653
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/?account=6 HTTP/1.1" 401 183
+Unauthorized: /api/accounts/transactions/history/
+"GET /api/accounts/transactions/history/ HTTP/1.1" 401 183
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+Unauthorized: /api/accounts/accounts/
+"GET /api/accounts/accounts/ HTTP/1.1" 401 183
+"GET /api/accounts/accounts/ HTTP/1.1" 200 240
+"GET /api/accounts/transactions/history/cached/?account=6 HTTP/1.1" 200 653
+"GET /api/accounts/transactions/history/cached/?account=22 HTTP/1.1" 200 646
+"GET /api/accounts/transactions/history/cached/?account=22 HTTP/1.1" 200 646
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 28529
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 28529
+Unauthorized: /api/accounts/transactions/history/cached/
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 401 58
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 30245
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 200 33
+Not Found: /api/accounts/transactions/transfer/
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/transfer/
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 404 45
+Not Found: /api/accounts/transactions/transfer/
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 404 45
+"GET /api/accounts/accounts/ HTTP/1.1" 200 240
+"GET /api/accounts/transactions/history/ HTTP/1.1" 200 927
+Bad Request: /api/accounts/transactions/transfer/
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 400 35
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 200 33
+Internal Server Error: /api/accounts/transactions/transfer/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/transaction.py", line 76, in post
+    amount = Decimal(request.data.get('amount'))  # Convert to Decimal
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 500 18619
+"POST /api/accounts/transactions/transfer/ HTTP/1.1" 200 33
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/transaction.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 31380
+"POST /api/accounts/transactions/external-transfer/ HTTP/1.1" 200 33
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/users/update-timezone/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/user_account_management.py", line 106, in post
+    print(timzezone)
+          ^^^^^^^^^
+NameError: name 'timzezone' is not defined. Did you mean: 'timezone'?
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 500 91061
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 32803
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+"POST /api/accounts/users/update-timezone/ HTTP/1.1" 200 44
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 34201
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 34321
+Bad Request: /api/accounts/verify-otp/
+"POST /api/accounts/verify-otp/ HTTP/1.1" 400 34
+Not Found: /api/accounts/verify-otp/
+"POST /api/accounts/verify-otp/ HTTP/1.1" 404 26
+Forbidden: /api/accounts/admin/reports/
+Not Found: /api/accounts/transactions/transfer/
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+Internal Server Error: /api/accounts/permissions/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/user_role_management.py", line 68, in get
+    permissions = Permission.objects.all()
+                  ^^^^^^^^^^
+NameError: name 'Permission' is not defined. Did you mean: 'permissions'?
+"GET /api/accounts/permissions/ HTTP/1.1" 500 91368
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 34321
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 58
+"GET /api/accounts/roles/ HTTP/1.1" 200 121
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 183
+"GET /api/accounts/roles/ HTTP/1.1" 200 121
+Unauthorized: /api/accounts/roles/
+"GET /api/accounts/roles/ HTTP/1.1" 401 183
+"GET /api/accounts/roles/ HTTP/1.1" 200 121
+"DELETE /api/accounts/roles/ HTTP/1.1" 200 58
+"POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
+Unauthorized: /api/accounts/roles/assign/
+"POST /api/accounts/roles/assign/ HTTP/1.1" 401 58
+"POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
+"DELETE /api/accounts/roles/assign/ HTTP/1.1" 200 68
+"POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
+"GET /api/accounts/admin/reports/ HTTP/1.1" 200 508
+"GET /api/accounts/admin/reports/ HTTP/1.1" 200 508
+"POST /api/accounts/roles/ HTTP/1.1" 201 32
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader

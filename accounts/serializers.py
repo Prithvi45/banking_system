@@ -8,22 +8,27 @@ from django.utils.timezone import localtime
 
 User = get_user_model()
 
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'email']
+
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
 
     class Meta:
         model = User
-        fields = ['username', 'email', 'password', 'first_name', 'last_name','timezone']
+        fields = ['username', 'email', 'password', 'first_name', 'last_name']
 
     def create(self, validated_data):
-        print("cccc")
+        #print("cccc")
         user = User.objects.create_user(
             username=validated_data['username'],
             email=validated_data['email'],
             password=validated_data['password'],
             first_name=validated_data.get('first_name', ''),
             last_name=validated_data.get('last_name', ''),
-            timezone=validated_data.get('timezone', 'UTC'),
         )
         return user
 
@@ -40,11 +45,30 @@ class TenantSerializer(serializers.ModelSerializer):
 
 class BankAccountSerializer(serializers.ModelSerializer):
     tenant = TenantSerializer(required=False)
+
     class Meta:
         model = BankAccount
         fields = ['id', 'account_number', 'balance', 'created_at','tenant']
-        read_only_fields = ['account_number', 'created_at']
+        read_only_fields = ['account_number', 'created_at','tenant']
 
+    def create(self, validated_data):
+        tenant_data = validated_data.pop('tenant', None)  # Extract tenant data if provided
+        user = self.context['request'].user  # Get the user from the request context
+        validated_data.pop('user', None)
+
+        # Create the bank account
+        bank_account = BankAccount.objects.create(user=user, **validated_data)
+
+        # If tenant data is provided, handle it
+        if tenant_data:
+            print(tenant_data)
+            tenant,created = Tenant.objects.get_or_create(**tenant_data)
+            print(tenant)
+            print(type(tenant))
+            bank_account.tenant = tenant
+            bank_account.save()
+
+        return bank_account
 
 
 class BatchAccountCreationSerializer(serializers.Serializer):
@@ -53,6 +77,28 @@ class BatchAccountCreationSerializer(serializers.Serializer):
             child=serializers.CharField(max_length=255)
         )
     )
+
+
+class CreateTransactionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Transaction
+        fields = ['account','amount']
+
+
+class TransferTransactionSerializer(serializers.Serializer):
+    from_account = serializers.CharField()
+    to_account = serializers.CharField()
+    amount = serializers.CharField()
+
+class UpdateTimeZoneSerializer(serializers.Serializer):
+    timezone = serializers.CharField()
+
+class VerifyOTPSerializer(serializers.Serializer):
+    username = serializers.CharField()
+    otp = serializers.CharField()
+
+class CreateDeleteRoleSerializer(serializers.Serializer):
+    name = serializers.CharField()
 
 
 

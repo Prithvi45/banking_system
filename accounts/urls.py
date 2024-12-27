@@ -15,7 +15,7 @@ urlpatterns = [
     # User Auth    
     path('register/', RegisterView.as_view(), name='register'),
     path('login/', LoginView.as_view(), name='login'),
-    path('loginwithkeys/', LoginViewWithKeys.as_view(), name='login-with-keys'),
+    path('loginwithoutotp/', LoginViewWithKeys.as_view(), name='login-without-otp'),
     path('verify-otp/', VerifyOTPView.as_view(), name='verify-otp'),
     path('users/update-timezone/', UpdateTimezoneView.as_view(), name='update-timezone'),
 

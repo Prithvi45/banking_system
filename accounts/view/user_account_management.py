@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status, permissions
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import authenticate
-from accounts.serializers import RegisterSerializer, LoginSerializer, BankAccountSerializer, BatchAccountCreationSerializer
+from accounts.serializers import RegisterSerializer, LoginSerializer, BankAccountSerializer, BatchAccountCreationSerializer, UpdateTimeZoneSerializer, VerifyOTPSerializer
 from rest_framework.permissions import AllowAny
 from accounts.utils import send_otp_via_email
 from accounts.models import CustomUser, BankAccount
@@ -22,12 +22,10 @@ User = get_user_model()
 
 class RegisterView(APIView):
     permission_classes = [AllowAny]
-    serializer = RegisterSerializer
+    serializer_class = RegisterSerializer
 
     def post(self, request):
-        print("AAA")
         serializer = RegisterSerializer(data=request.data)
-        print("BBB")
         if serializer.is_valid():
             serializer.save()
             return Response({'message': 'User registered successfully'}, status=status.HTTP_201_CREATED)
@@ -37,6 +35,8 @@ class RegisterView(APIView):
 
 class LoginViewWithKeys(APIView):
     permission_classes = [AllowAny]
+    serializer_class = LoginSerializer
+
     def post(self, request):
         serializer = LoginSerializer(data=request.data)
         if serializer.is_valid():
@@ -57,6 +57,8 @@ class LoginViewWithKeys(APIView):
 
 class LoginView(APIView):
     permission_classes = [AllowAny]
+    serializer_class = LoginSerializer
+
     def post(self, request):
         username = request.data.get('username')
         password = request.data.get('password')
@@ -75,6 +77,7 @@ class LoginView(APIView):
 
 class VerifyOTPView(APIView):
     permission_classes = [AllowAny]
+    serializer_class = VerifyOTPSerializer
 
     def post(self, request):
         username = request.data.get('username')
@@ -98,9 +101,12 @@ class VerifyOTPView(APIView):
 
 class UpdateTimezoneView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = UpdateTimeZoneSerializer
 
     def post(self, request):
         timezone = request.data.get('timezone')
+        print(timezone)
+        print(type(timezone))
         if timezone not in all_timezones:
             return Response({'error': 'Invalid time zone'}, status=status.HTTP_400_BAD_REQUEST)
 

@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
 from accounts.models import BankAccount, Transaction
-from accounts.serializers import TransactionSerializer
+from accounts.serializers import TransactionSerializer, CreateTransactionSerializer, TransferTransactionSerializer
 from decimal import Decimal
 from django.utils.dateparse import parse_date
 from rest_framework.generics import ListAPIView
@@ -10,6 +10,7 @@ from rest_framework.permissions import IsAuthenticated
 from accounts.utils import convert_currency
 from django.core.cache import cache
 from accounts.pagination import TransactionPagination
+from drf_spectacular.utils import extend_schema, OpenApiParameter
 
 import logging
 logger = logging.getLogger(__name__)
@@ -17,6 +18,7 @@ logger = logging.getLogger(__name__)
 
 class DepositView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = CreateTransactionSerializer
 
     def post(self, request):
         account_id = request.data.get('account')
@@ -41,6 +43,7 @@ class DepositView(APIView):
 
 class WithdrawView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = CreateTransactionSerializer
 
     def post(self, request):
         account_id = request.data.get('account')
@@ -65,6 +68,7 @@ class WithdrawView(APIView):
 
 class TransferView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = TransferTransactionSerializer
 
     def post(self, request):
         from_account_id = request.data.get('from_account')
@@ -134,6 +138,7 @@ class TransactionHistoryView(ListAPIView):
 
 class ExternalTransferView(APIView):
     permission_classes = [permissions.IsAuthenticated]
+    serializer_class = TransferTransactionSerializer
 
 
     def post(self, request):
@@ -176,6 +181,21 @@ class TransactionHistoryCachedView(ListAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = TransactionSerializer
 
+
+    @extend_schema(
+        summary="Retrieve transaction history",
+        description="Retrieve transaction history filtered by account ID.",
+        parameters=[
+            OpenApiParameter(
+                name="account",
+                description="Account ID for filtering transactions",
+                required=True,
+                type=int,
+                location=OpenApiParameter.QUERY,
+            ),
+        ],
+        responses={200: "Transaction History Retrieved", 400: "Invalid Request"}
+    )
     def get_queryset(self):
         account_id = self.request.query_params.get('account')
         if not account_id:
