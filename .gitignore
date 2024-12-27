@@ -1,0 +1,66 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+#*.sqlite3
+#db.sqlite3
+.env
+
+# Logs and debug
+*.log
+*.bak
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.coverage
+.tox/
+.nox/
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+cover/
+
+# Static and media
+staticfiles/
+media/
+node_modules/
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+
+
+#Logs
+django_app.log
+django_security.log
