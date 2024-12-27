@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'drf_spectacular',
     'accounts',  
     'corsheaders',
 ]
@@ -78,6 +79,15 @@ TEMPLATES = [
         },
     },
 ]
+
+
+
+SPECTACULAR_SETTINGS= {
+    'TITLE' : 'Banking System - Built by using Django REST Framework',
+    'DESCRIPTION' : 'Advanced banking system with multi currency and tenancy support',
+    'VERSION' : '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
 
 WSGI_APPLICATION = 'banking_system.wsgi.application'
 
@@ -136,6 +146,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',    
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],

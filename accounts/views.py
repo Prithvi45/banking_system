@@ -22,6 +22,7 @@ User = get_user_model()
 
 class RegisterView(APIView):
     permission_classes = [AllowAny]
+    serializer = RegisterSerializer
 
     def post(self, request):
         print("AAA")

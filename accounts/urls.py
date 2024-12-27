@@ -1,9 +1,15 @@
 from django.urls import path
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from .views import RegisterView, LoginView, LoginViewWithKeys,VerifyOTPView, BankAccountView, BatchAccountCreationView, UpdateTimezoneView
 from .view.transaction import DepositView, WithdrawView, TransferView, TransactionHistoryView, ExternalTransferView, TransactionHistoryCachedView
 from .view.user_management import RoleView, UserRoleView, PermissionView
 
 urlpatterns = [
+
+    # Swagger UI    
+
+    path('schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     # User Auth    
     path('register/', RegisterView.as_view(), name='register'),
     path('login/', LoginView.as_view(), name='login'),

@@ -108,9 +108,10 @@ class TransactionHistoryView(ListAPIView):
         transaction_type = self.request.query_params.get('type')
 
         # Get all transactions for the specified account
-        queryset = Transaction.objects.filter(account__user=self.request.user).only('id')
-        print(queryset)
-        #queryset = Transaction.objects.select_related('account', 'related_account').filter(account__user=request.user)
+        queryset = Transaction.objects.filter(account__user=self.request.user)
+
+        #Task 9.4 - we can select relevant columns to display incase we have 100s of cloumns as below
+        #queryset = Transaction.objects.only('id','amount','transaction_type','created_at')
 
 
         if account_id:
