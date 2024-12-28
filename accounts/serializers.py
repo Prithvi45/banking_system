@@ -129,7 +129,27 @@ class GroupSerializer(serializers.ModelSerializer):
         fields = ['id', 'name']
 
 
+class RoleDeleteSerializer(serializers.Serializer):
+    """Serializer for deleting a role"""
+    name = serializers.CharField(max_length=150)
+
+    def validate_name(self, value):
+        if not Group.objects.filter(name=value).exists():
+            raise serializers.ValidationError(f'Role "{value}" does not exist.')
+        return value
+
+
+class RoleAssignSerializer(serializers.Serializer):
+    username = serializers.CharField(max_length=150)
+    role = serializers.CharField(max_length=150)
+
+
 class PermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Permission
         fields = ['id', 'name', 'codename', 'content_type']
+
+class PermissionAssignSerializer(serializers.Serializer):
+    target_type = serializers.ChoiceField(choices=['user', 'group'])
+    target_name = serializers.CharField()
+    permission_codename = serializers.CharField()        

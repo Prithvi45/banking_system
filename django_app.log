@@ -2252,3 +2252,194 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 34321
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 34321
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 36173
+"POST /api/accounts/login/ HTTP/1.1" 200 36
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+"GET /api/accounts/roles/ HTTP/1.1" 200 121
+"POST /api/accounts/roles/ HTTP/1.1" 201 27
+"GET /api/accounts/roles/ HTTP/1.1" 200 149
+Not Found: /api/accounts/roles/
+"DELETE /api/accounts/roles/ HTTP/1.1" 404 35
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 36421
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 37745
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 37745
+Unauthorized: /api/accounts/roles/
+"DELETE /api/accounts/roles/ HTTP/1.1" 401 58
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 38297
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 36173
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 37782
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+"GET /api/accounts/roles/ HTTP/1.1" 200 149
+"POST /api/accounts/roles/assign/ HTTP/1.1" 200 67
+Not Found: /api/accounts/roles/assign/
+"DELETE /api/accounts/roles/assign/ HTTP/1.1" 404 35
+"GET /api/accounts/admin/reports/ HTTP/1.1" 200 508
+/home/ubuntu/banking_system/accounts/view/user_account_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 37782
+Unauthorized: /api/accounts/accounts/batch-create/
+"POST /api/accounts/accounts/batch-create/ HTTP/1.1" 401 58
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 37782
+Unauthorized: /api/accounts/permissions/
+"GET /api/accounts/permissions/ HTTP/1.1" 401 58
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+Internal Server Error: /api/accounts/permissions/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/user_role_management.py", line 74, in get
+    serializer = PermissionSerializer(permissions, many=True)
+                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'PermissionSerializer' is not defined. Did you mean: 'RoleAssignSerializer'?
+"GET /api/accounts/permissions/ HTTP/1.1" 500 92846
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/permissions/ HTTP/1.1" 200 3006
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/accounts/permission/
+"GET /api/accounts/permission/ HTTP/1.1" 404 7621
+Unauthorized: /api/accounts/permissions/
+"GET /api/accounts/permissions/ HTTP/1.1" 401 183
+"POST /api/accounts/loginwithoutotp/ HTTP/1.1" 200 483
+"GET /api/accounts/roles/ HTTP/1.1" 200 149
+Unauthorized: /api/accounts/permissions/
+"GET /api/accounts/permissions/ HTTP/1.1" 401 183
+"GET /api/accounts/permissions/ HTTP/1.1" 200 3006
+Not Found: /api/accounts/permissions/assign/
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 404 7646
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/ubuntu/banking_system/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/accounts/permissions/assign/
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/ubuntu/venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/banking_system/accounts/view/user_role_management.py", line 86, in post
+    serializer = PermissionAssignSerializer(data=request.data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'PermissionAssignSerializer' is not defined. Did you mean: 'PermissionSerializer'?
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 500 91146
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/accounts/permissions/assign/
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 400 135
+"GET /api/accounts/permissions/ HTTP/1.1" 200 3006
+Bad Request: /api/accounts/permissions/assign/
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 400 135
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 200 77
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 200 77
+"DELETE /api/accounts/permissions/assign/ HTTP/1.1" 200 78
+"DELETE /api/accounts/permissions/assign/ HTTP/1.1" 200 78
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 38920
+"GET /api/accounts/permissions/ HTTP/1.1" 200 3006
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 40926
+"POST /api/accounts/permissions/assign/ HTTP/1.1" 200 77
+"GET /api/accounts/transactions/history/cached/ HTTP/1.1" 200 2
+Forbidden: /api/accounts/admin/reports/
+Not Found: /api/accounts/transactions/transfer/
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/accounts/docs/ HTTP/1.1" 200 4695
+"GET /api/accounts/schema/ HTTP/1.1" 200 40926
+/home/ubuntu/banking_system/accounts/view/user_role_management.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/accounts/login/ HTTP/1.1" 200 36

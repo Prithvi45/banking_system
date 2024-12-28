@@ -3,7 +3,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from .view.user_account_management import RegisterView, LoginView, LoginViewWithKeys,VerifyOTPView, UpdateTimezoneView
 from .view.bank_account_management import BankAccountView, BatchAccountCreationView
 from .view.transaction import DepositView, WithdrawView, TransferView, TransactionHistoryView, ExternalTransferView, TransactionHistoryCachedView
-from .view.user_role_management import RoleView, UserRoleView, PermissionView
+from .view.user_role_management import RoleView, UserRoleView, PermissionView, AssignPermissionView
 from .view.reports import AdminReportView
 
 urlpatterns = [
@@ -34,6 +34,7 @@ urlpatterns = [
     path('roles/', RoleView.as_view(), name='roles'),
     path('roles/assign/', UserRoleView.as_view(), name='assign-role'),
     path('permissions/', PermissionView.as_view(), name='permissions'),
+    path('permissions/assign/', AssignPermissionView.as_view(), name='assign-permission'),
 
     #Redis Cached
     path('transactions/history/cached/', TransactionHistoryCachedView.as_view(), name='transaction-history'),

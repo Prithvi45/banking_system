@@ -139,6 +139,7 @@ class BankAccountView(APIView):
 
 class BatchAccountCreationView(APIView):
     permission_classes = [permissions.IsAdminUser]
+    serializer_class = BatchAccountCreationSerializer
 
     def post(self, request):
         """Admin batch account creation."""
